@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <title>Fixtures</title>
+  </head>
+  <body id="body">
+    <div class="heading__result">
+      <h2>RESULTS</h2>
+      <p>This Result is based on the league matches.</p>
+    </div>
+
+    <table class="centred" style="width: 50%;">
+      <tr>
+        <th>Rounds</th>
+        <th colspan="1">Winner</th>
+      </tr>
+      <tr>
+        <td>Round 1</td>
+        <td><%=result[0].teamName1%></td>
+      </tr>
+      <tr>
+        <td>Round 2</td>
+        <td><%=result[0].teamName2%></td>
+      </tr>
+      <tr>
+        <td>Round 3</td>
+        <td><%=result[0].teamName3%></td>
+      </tr>
+    </table>
+  </body>
+</html>

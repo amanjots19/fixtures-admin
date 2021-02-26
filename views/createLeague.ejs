@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create A League</title>
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-form">
+        <div class="heading__">
+          <h2>Create A League</h2>
+
+          <p>
+            You are the league Manager here. Set up a private league to play.
+          </p>
+        </div>
+        <form class="add-league" method="POST">
+          <div class="options">
+            <label for="leagueName">League Name</label>
+            <input type="text" name="leagueName" />
+          </div>
+          <div class="inputs">
+            <label for="teams">Team 1</label>
+            <input type="text" placeholder="Team Name" name="team1" />
+            <label  for="teams">Team 2</label>
+            <input type="text" placeholder="Team Name" name="team2" />
+            <label  for="teams">Team 3</label>
+            <input type="text" placeholder="Team Name" name="team3" />
+            <label  for="teams">Team 4</label>
+            <input type="text" placeholder="Team Name" name="team4" />
+          </div>
+
+          <button class="btn__" type="submit">Create league</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

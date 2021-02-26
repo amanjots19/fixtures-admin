@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+.main-form{
+    margin: auto;
+    width: 45%;
+    flex-wrap: wrap;
+    background-color: beige;
+    height: 40vh;
+}
+.body__colored{
+    background-color: lightgoldenrodyellow;
+}
+/* createLeague */
+.add-league{
+    margin: auto;
+    height: 60vh;
+    align-items: center;
+    background-color: beige;
+}
+.heading__{
+    text-align: center;
+    padding-top: 20px;
+    font-size:large;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .options{
+    margin: auto;
+    display: block;
+    width: 20rem;
+    max-width: 95%;
+    margin-bottom: 0.25rem;
+  }
+  .inputs{
+    margin: auto;
+    display: block;
+    max-width: 75%;
+    margin-bottom: 0.25rem;
+    width:150px;
+    margin-bottom:10px; 
+  }
+
+/* fixtures */
+.navbar{
+    background-color: lightgoldenrodyellow;
+    border-bottom: solid black;
+    height: 10vmin;
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+    
+}
+.rounds{
+    display: grid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.round__no{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.rounds__work{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: x-large;
+}
+h6{
+    margin: auto;
+    width: 50%;
+    font-size: large;
+}
+.inline__{
+    display: flex
+
+}
+.result__fixtures{
+    display: flex;
+    padding: 10px 10px;
+    
+}
+.result__{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+.btn__{
+    margin: auto;
+    padding:0.25 1rem;
+    text-decoration: none;
+    font: inherit;
+    border: 1px solid ;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+/* result  */
+.heading__result{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+table{
+    margin-left: auto;
+  margin-right: auto;
+}
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50%  no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: block;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+.inputs__
+{
+    text-align: end;
+    /* margin: auto; */
+    display: block;
+    max-width: 75%;
+    margin-bottom: 0.25rem;
+    width:150px;
+    margin-bottom:10px; 
+}

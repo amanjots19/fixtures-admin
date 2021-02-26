@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <title>Fixtures</title>
+  </head>
+  <body class="body__colored">
+    <main>
+      <form method="POST">
+        <div class="navbar">
+          <h2 class="heading"><%=detail[0].leagueName%></h2>
+        </div>
+        <div class="rounds">
+          <h3 class="round__no">Round One</h3>
+          <label for="Timings">Time</label>
+          <input type="date" name="timing1" class="inputs__" />
+          <div class="inline__">
+            <label for="team1" class="rounds__work"
+              ><%= detail[0].team1 %></label
+            >
+            <h6>vs</h6>
+            <label for="team4" class="rounds__work"
+              ><%= detail[0].team4 %></label
+            >
+          </div>
+          <br /><br />
+          <div class="inline__">
+            <label for="team2" class="rounds__work"
+              ><%= detail[0].team2 %></label
+            >
+            <h6>vs</h6>
+            <label for="team3" class="rounds__work"
+              ><%= detail[0].team3 %></label
+            >
+          </div>
+        </div>
+
+        <h3 class="result__">
+          Result
+        </h3>
+        <div class="result__">
+          <input name="teamName1" type="text" placeholder="winning Team" />
+        </div>
+        <div class="rounds">
+          <h3 class="round__no">Round two</h3>
+          <label for="Timings">Time</label>
+          <input type="date" name="timing2" class="inputs__" />
+          <div class="inline__">
+            <label for="team1" class="rounds__work"
+              ><%= detail[0].team1 %></label
+            >
+            <h6>vs</h6>
+            <label for="team2" class="rounds__work"
+              ><%= detail[0].team2 %></label
+            >
+          </div>
+          <br /><br />
+          <div class="inline__">
+            <label for="team3" class="rounds__work"
+              ><%= detail[0].team3 %></label
+            >
+            <h6>vs</h6>
+            <label for="team4" class="rounds__work"
+              ><%= detail[0].team4 %></label
+            >
+          </div>
+        </div>
+        <h3 class="result__">
+          Result
+        </h3>
+        <div class="result__">
+          <input name="teamName2" type="text" placeholder="winning Team" />
+        </div>
+        <div class="rounds">
+          <h3 class="round__no">Round Three</h3>
+          <label for="Timings">Time</label>
+          <input type="date" name="timing3" class="inputs__" />
+          <div class="inline__">
+            <label for="team1" class="rounds__work"
+              ><%= detail[0].team1 %></label
+            >
+            <h6>vs</h6>
+            <label for="team3" class="rounds__work"
+              ><%= detail[0].team3 %></label
+            >
+          </div>
+          <br /><br />
+          <div class="inline__">
+            <label for="team2" class="rounds__work"
+              ><%= detail[0].team2 %></label
+            >
+            <h6>vs</h6>
+            <label for="team4" class="rounds__work"
+              ><%= detail[0].team4 %></label
+            >
+          </div>
+        </div>
+
+        <h3 class="result__">
+          Result
+        </h3>
+        <div class="result__">
+          <input name="teamName3" type="text" placeholder="winning Team" />
+        </div>
+        <button class="btn__" type="submit">Submit Result</button>
+      </form>
+    </main>
+  </body>
+</html>
